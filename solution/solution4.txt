@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    char str1[]={};
+    char str2[]={};
+    printf("Enter the value of string 1&2:\n");
+    scanf("%s",str1);
+    scanf("%s",str2);
+    int p=strlen(str1);
+    int l=strlen(str2);
+    if(p==l)
+    {
+        print("The two string contain equal no. of characters:\n");
+    }
+    else
+    {
+        printf("The two string contain different no. of characters:\n");
+    }
+    return 0;
+}
